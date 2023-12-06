@@ -1,0 +1,10 @@
+1. git init
+2. git branch -m main
+3. crear repositorio en github, con descripción y readme.md
+4. git add remote origin <link>
+5. git pull origin main // --allow-unrelated-histories
+6. git add .
+7. git commit -m "examen resuelto"
+8. git tag "examen resuelto v1.0"
+9. git push origin main
+10. git push origin --tags
