@@ -2,9 +2,16 @@
 2. git branch -m main
 3. crear repositorio en github, con descripción y readme.md
 4. git remote add origin <link>
-5. git pull origin main // --allow-unrelated-histories
-6. git add .
-7. git commit -m "examen resuelto"
-8. git tag "examen resuelto v1.0"
-9. git push origin main
-10. git push origin --tags
+5. git pull origin main // (--allow-unrelated-histories) por si da error
+6. git add .	(examen sin resolver)
+7. git commit -m "examen vacío"
+8. git push origin main
+9. git branch <develop>
+10. git checkout develop
+11. git add .	(examen resuelto)
+12. git commit -m "examen resuelto"
+13. git checkout main
+14. git merge --no-ff -m "develop into main" develop
+15. git tag "examen resuelto v1.0"
+16. git push origin main
+17. git push origin --tags
